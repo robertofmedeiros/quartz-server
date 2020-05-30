@@ -1,0 +1,5 @@
+CREATE TABLE config_quartz (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  parametro VARCHAR(250) NOT NULL,
+  valor VARCHAR(250) NOT NULL
+);
